@@ -19,13 +19,18 @@ export default {
       events: [
         {
           link: 'https://oncon2020.prossell.jp/',
-          data: '1/14 〜 3/3 ',
+          data: ' 1/14 〜 3/ 3',
           title: 'ONLINE INTERN CONTEST 2020'
         },
         {
           link: 'https://oncon2020-2.prossell.jp/',
-          data: '4/17 〜4/24',
+          data: ' 4/17 〜 4/24',
           title: 'ONLINE INTERN CONTEST 2020 #2'
+        },
+        {
+          link: 'https://oncon2020-3.prossell.jp/',
+          data: ' 5/ 1   〜 5/ 8 ',
+          title: ' ONLINE INTERN CONTEST 2020 #3'
         }
       ]
     }
