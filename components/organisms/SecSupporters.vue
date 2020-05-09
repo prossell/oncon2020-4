@@ -24,7 +24,7 @@ export default {
   },
   data() {
     return {
-      publish: true,
+      publish: false,
       supporters: [
         {
           link: 'https://kosen-career.tech/',

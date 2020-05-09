@@ -42,89 +42,15 @@ export default {
       news_list: [
         {
           pub: true,
-          date: '2020/04/24',
+          date: '2020/05/11',
           title_ja: 'オンコン公式Webサイトを公開しました。',
           title_en: 'ONCON Official Website Was Launched.'
         },
         {
-          pub: true,
-          date: '2020/04/25',
-          title_ja: 'noteを公開しました！',
-          // title_en: 'Report Published in Kosen Magazine',
-          detaile_ja: 'オンコンの詳細をわかりやすくまとめております！',
-          // detaile_en: 'Report from a previous participant (Japanese Only)',
-          link: 'https://note.com/prossell2019/n/n51f4bd489eb4'
-        },
-        {
-          pub: true,
+          pub: false,
           date: '2020/04/26',
           title_ja: 'サポーター企業の公開',
           detaile_ja: '(株)高専キャリア教育研究所 様'
-        },
-        {
-          pub: true,
-          date: '2020/04/26',
-          title_ja: '審査員(Judges)ページの公開',
-          detaile_ja: '審査員およびメンターの方々の紹介をしております。',
-          link: '/judges'
-        },
-        {
-          pub: true,
-          date: '2020/04/27',
-          title_ja: 'サポーター企業の追加',
-          detaile_ja: '(株)アカデミックギャングスター 様'
-        },
-        {
-          pub: true,
-          date: '2020/04/27',
-          title_ja: '審査員(メンター)の追加',
-          detaile_ja: '中川卓也 様'
-        },
-        {
-          pub: true,
-          date: '2020/04/28',
-          title_ja: '審査員の追加',
-          detaile_ja: '西村真陽 様，山根弘成 様'
-        },
-        {
-          pub: true,
-          date: '2020/04/30',
-          title_ja: '審査員の追加',
-          detaile_ja: '齊藤義明 様'
-        },
-        {
-          pub: true,
-          date: '2020/05/01',
-          title_ja: '🎏🎏🎏 オンコンがスタートしました！🎏🎏🎏',
-          detaile_ja:
-            '学生の応募を締め切りました。22チーム110名でこれから1週間頑張りましょう！！！'
-        },
-        {
-          pub: true,
-          date: '2020/05/01',
-          title_ja: 'サポーター企業の追加',
-          detaile_ja: '(株)DeNA 様'
-        },
-        {
-          pub: true,
-          date: '2020/05/06',
-          title_ja: 'Final Pitchの見学者募集を開始しました。',
-          detaile_ja: '申し込みページへ移動します。（終了しました。）',
-          link: '/awardCeremony'
-        },
-        {
-          pub: true,
-          date: '2020/05/07',
-          title_ja: '最終発表チームの紹介！（note）',
-          detaile_ja: '翌日の最終発表に出場するチームを紹介します！',
-          link: 'https://note.com/prossell2019/n/nfc21159aae61'
-        },
-        {
-          pub: true,
-          date: '2020/05/08',
-          title_ja: 'オンコンが無事終了しました！（結果はnoteへ）',
-          detaile_ja: '参加者のみなさん！1週間お疲れ様でした！！！',
-          link: 'https://note.com/prossell2019/n/n1c3a086b67dc'
         }
       ]
     }

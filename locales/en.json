@@ -83,38 +83,6 @@
     "comment_4": "We, also encourage high school students to join us!",
     "comment_5": "Participants from previous time as well as newcomers, let's make it possible!"
   },
-  "themes": [
-    {
-      "": "高専キャリア",
-      "kind": "テーマA",
-      "title": "mgramを使った新規事業を提案せよ"
-    },
-    {
-      "kind": "テーマB",
-      "title": "新しいメディアを提案せよ"
-    },
-    {
-      "title": "これからの教育ビジネスを提案せよ"
-    },
-    {
-      "": "プロッセル",
-      "title": "今後のインバウンドを考え新規事業を提案せよ"
-    },
-    {
-      "": "プロッセル",
-      "title": "AIで消滅しないビジネスを提案せよ"
-    },
-    {
-      "company": "",
-      "title": "ガブテク（行政xIT)を使った新規事業を提案せよ"
-    },
-    {
-      "": "プロッセル",
-      "kind": "テーマC",
-
-      "title": "ストック型のビジネスモデルを提案せよ"
-    }
-  ],
   "award": {
     "property": "ceremony",
     "content_1": "on video chatting service ",
