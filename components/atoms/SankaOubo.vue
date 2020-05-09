@@ -1,7 +1,7 @@
 <template lang="pug">
   .sankaoubo_box
     nuxt-link(to="/awardCeremony").application_btn
-      AwardCeremonySvg.sankaoubo
+      CommingSoonSvg.sankaoubo
       //- .sankaoubo(v-if="this.$i18n.locale === 'en'")
       //-   .enfont Apply!
 
@@ -39,8 +39,8 @@ export default {
 }
 .sankaoubo {
   transition: 0.4s $ease-out-1;
-  // width: 260px; 募集終了
-  width: 360px;
+  width: 260px; // 募集終了
+  // width: 360px;
 }
 .enfont {
   color: $theme-green;
@@ -59,8 +59,8 @@ export default {
     height: 5vw;
   }
   .sankaoubo {
-    // width: 60%; 募集終了
-    width: 70%;
+    width: 18vw;
+    // width: 70%;
   }
   .enfont {
     font-size: 3.2rem;
@@ -74,12 +74,12 @@ export default {
 @media screen and (max-width: $sm) {
   .application_btn {
     margin: auto;
-    width: 100%;
+    min-width: 100%;
     height: 52px;
   }
   .sankaoubo {
-    // width: 45%; 募集終了
-    width: 55%;
+    width: 45%;
+    // width: 55%;
   }
   .enfont {
     font-size: 3.2rem;
