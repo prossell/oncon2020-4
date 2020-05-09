@@ -2,17 +2,14 @@
   .SecTheme#theme
     SectionTitle(:title="'Theme'")
     .container
-      .theme_discription これら3つのテーマの中から1つを取り組んでいただきます。
+      //- .theme_discription これら3つのテーマの中から1つを取り組んでいただきます。
       .theme_lists( v-for="(theme,theme_id) in $t('themes')" :key="`theme_${theme_id}`")
-        .theme_kind {{ theme.kind }}
+        //- .theme_kind {{ theme.kind }}
         .theme_list
-
-
-
           //- .theme_number 0{{theme_id + 1}}
-          //- .theme_number ・
+          .theme_number >>
           .theme_wrapper
-            .theme_company {{ theme.company }}
+            //- .theme_company {{ theme.company }}
             .theme_title {{ theme.title }}
 
 </template>
@@ -36,12 +33,12 @@ export default {
 .theme_lists {
   margin: 64px 0 42px;
 }
-.theme_kind {
-  text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  margin: -15px 0;
-}
+// .theme_kind {
+//   text-align: center;
+//   font-size: 24px;
+//   font-weight: 600;
+//   margin: -15px 0;
+// }
 
 .theme_list {
   position: relative;
