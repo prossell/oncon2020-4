@@ -47,6 +47,19 @@ export default {
           title_en: 'ONCON Official Website Was Launched.'
         },
         {
+          pub: true,
+          date: '2020/05/11',
+          title_ja: 'オンコン参加申込みを開始しました。',
+          detaile_ja: '参加規約のページに移動します。申込みは5/20まで！'
+        },
+        {
+          pub: true,
+          date: '2020/05/11',
+          title_ja: 'Final Pitchの申込みを開始しました。',
+          detaile_ja:
+            '最終日（5/31）に行われるFinal Pitchの申込みです。当日まで申込み可能です。'
+        },
+        {
           pub: false,
           date: '2020/04/26',
           title_ja: 'サポーター企業の公開',
