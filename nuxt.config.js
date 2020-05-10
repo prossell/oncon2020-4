@@ -3,9 +3,9 @@ export default {
   htmlAttrs: {
     prefix: 'og: http://ogp.me/ns#'
   },
-  titleTemplate: '%s - ONLINE INTERN CONTEST 2020 #3',
+  titleTemplate: '%s - ONLINE INTERN CONTEST 2020 #4',
   head: {
-    title: 'ONLINE INTERN CONTEST 2020 #3',
+    title: 'ONLINE INTERN CONTEST 2020 #4',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -13,12 +13,12 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'ビジネスコンテスト×インターンシップ。完全オンラインで行うコンテスト。参加学生でチームを結成し、課題テーマに取り組め！ 4月30日応募締切。#コロナに負けるな'
+          'ビジネスコンテスト×インターンシップ。完全オンラインで行うコンテスト。参加学生でチームを結成し、課題テーマに取り組め！ 5月20日応募締切。#コロナに負けるな'
       },
       {
         hid: 'og:site_name',
         property: 'og:site_name',
-        content: 'ONLINE INTERN CONTEST 2020 #3'
+        content: 'ONLINE INTERN CONTEST 2020 #4'
       },
       {
         hid: 'og:type',
@@ -28,23 +28,23 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://oncon2020-3.prossell.jp/'
+        content: 'https://oncon2020-4.prossell.jp/'
       },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'ONLINE INTERN CONTEST 2020 #3'
+        content: 'ONLINE INTERN CONTEST 2020 #4'
       },
       {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'ビジネスコンテスト×インターンシップ。完全オンラインで行うコンテスト。参加学生でチームを結成し、課題テーマに取り組め！ 4月30日応募締切。#コロナに負けるな'
+          'ビジネスコンテスト×インターンシップ。完全オンラインで行うコンテスト。参加学生でチームを結成し、課題テーマに取り組め！ 5月20日応募締切。#コロナに負けるな'
       },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://oncon2020-3.prossell.jp/img/OGP.png'
+        content: 'https://oncon2020-4.prossell.jp/img/OGP.png'
       },
       { property: 'fb:app_id', content: '218399332764411' },
       { name: 'twitter:card', content: 'summary_large_image' },
