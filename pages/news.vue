@@ -60,10 +60,18 @@ export default {
             '最終日（5/31）に行われるFinal Pitchの申込みです。当日まで申込み可能です。'
         },
         {
-          pub: false,
-          date: '2020/04/26',
+          pub: true,
+          date: '2020/05/11',
           title_ja: 'サポーター企業の公開',
           detaile_ja: '(株)高専キャリア教育研究所 様'
+        },
+        {
+          pub: true,
+          date: '2020/05/11',
+          title_ja: '審査員（Judges）ページの公開',
+          detaile_ja:
+            '審査員およびメンターの方々を紹介しております。順次追加予定です。',
+          link: '/judges'
         }
       ]
     }
