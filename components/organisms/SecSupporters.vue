@@ -24,26 +24,27 @@ export default {
   },
   data() {
     return {
-      publish: false,
+      publish: true,
       supporters: [
         {
           link: 'https://kosen-career.tech/',
           logo: 'kosen_career',
           jaName: '株式会社 高専キャリア教育研究所',
           enName: 'Kosen Career Co., Ltd.'
-        },
-        {
-          link: 'https://academic-gangstar.com/',
-          logo: 'academic_gangstar',
-          jaName: '株式会社 アカデミックギャングスター',
-          enName: 'Academic Gangstar Co., Ltd.'
-        },
-        {
-          link: 'https://dena.com/jp/',
-          logo: 'dena',
-          jaName: '株式会社ディー・エヌ・エー',
-          enName: 'DeNA Co., Ltd.'
         }
+        // },
+        // {
+        //   link: 'https://academic-gangstar.com/',
+        //   logo: 'academic_gangstar',
+        //   jaName: '株式会社 アカデミックギャングスター',
+        //   enName: 'Academic Gangstar Co., Ltd.'
+        // },
+        // {
+        //   link: 'https://dena.com/jp/',
+        //   logo: 'dena',
+        //   jaName: '株式会社ディー・エヌ・エー',
+        //   enName: 'DeNA Co., Ltd.'
+        // }
       ]
     }
   }
