@@ -20,7 +20,7 @@
         //-         .date {{news.date}}
         //-       .news_detaile {{news.detaile_en}}
         .twitter_timeline
-          <a class="twitter-timeline" data-width="400" href="https://twitter.com/Prossell_JP?ref_src=twsrc%5Etfw">Tweets by Prossell_JP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a class="twitter-timeline" data-width="320" data-height="800" href="https://twitter.com/Prossell_JP?ref_src=twsrc%5Etfw">Tweets by Prossell_JP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     Footer
 </template>
 <script>
@@ -131,6 +131,7 @@ export default {
 
 .twitter_timeline {
   flex-shrink: 0;
+  height: 1000px;
 }
 
 @media screen and (max-width: $md) {

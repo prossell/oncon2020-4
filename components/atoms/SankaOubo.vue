@@ -1,6 +1,6 @@
 <template lang="pug">
   .sankaoubo_box
-    nuxt-link(to="/awardCeremony").application_btn
+    nuxt-link(to="/disclaimer").application_btn
       SankaouboSvg.sankaoubo
       //- .sankaoubo(v-if="this.$i18n.locale === 'en'")
       //-   .enfont Apply!
@@ -9,10 +9,10 @@
 
 </template>
 <script>
+import AwardCeremonySvg from '~/assets/images/hyousyousikibosyuu.svg?inline'
 import SankaouboSvg from '~/assets/images/sankaoubo.svg?inline'
 import BoshushuryoSvg from '~/assets/images/boshushuryo.svg?inline'
 import CommingSoonSvg from '~/assets/images/comming_soon.svg?inline'
-import AwardCeremonySvg from '~/assets/images/hyousyousikibosyuu.svg?inline'
 
 export default {
   components: {

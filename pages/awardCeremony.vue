@@ -4,7 +4,7 @@
     SubPageTopTitle(:title="'Rules'")
     .container
       .main_wrapper
-        BoshushuryoSvg.boshushuryo
+        //- BoshushuryoSvg.boshushuryo
         //- .boshushuryo(v-if="this.$i18n.locale === 'en'")
         //-   .enfont Application have been closed
         .awardCeremony_box
@@ -55,12 +55,12 @@ export default {
   },
   methods: {
     toggleAgreement() {
-      this.$scrollTo('#top')
-      // this.agree = this.agree !== true
+      // this.$scrollTo('#top')
+      this.agree = this.agree !== true
     },
     goToForm() {
       window.location.href =
-        'https://docs.google.com/forms/d/e/1FAIpQLSdYrruRdOEdtK5vB2nJ1GICAc6qWVmNE6Ls_6sM4DcfWowKbA/viewform'
+        'https://docs.google.com/forms/d/e/1FAIpQLSej7VRMvXFrGM7Wh0le1XVLC89rRCbSBbaH_WkBrTvmSS7CaQ/viewform'
     }
   },
   head() {
@@ -129,7 +129,7 @@ export default {
   }
 }
 .awardCeremony_checkbox {
-  opacity: 0.3;
+  // opacity: 0.3;
 
   margin: 64px auto;
   @include flex($justifyContent: center);
