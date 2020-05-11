@@ -16,7 +16,7 @@
                 p {{affi}}
             .judge_content--about(v-for="(about,about_key) in jud.about" :key="`about_${about_key}`")
               p {{about}}
-    SectionTitle(:title="'Judges & Mentors'")
+    SectionTitle(:title="'Mentors'")
     .container
       .judges_wrapper(v-for="(men,men_key) in mentors" :key="`men_${men_key}`")
         a(:href="men.link").judge
