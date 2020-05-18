@@ -160,9 +160,7 @@ export default {
         },
         {
           name: '青山 陽',
-          affiliate: [
-            'Amazon Data Service Japan Date Center Operation Engineer'
-          ],
+          affiliate: ['Amazon Data Services Japan K.K'],
           img: 'Aoyama_Yo',
           about: [
             '電気主任技術者連盟 副会長',
