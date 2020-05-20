@@ -18,12 +18,12 @@
         //-   ToggleLocale
         .header_menu_sns
           TopShareSNS
-      .header_notify(v-if="$route.path === '/'")
-        nuxt-link(to="awardCeremony").header_notify_box
-          .title
-            span.press プレスリリース
-            span.content Final Pitch 見学者募集！
-          .arrow
+      //- .header_notify(v-if="$route.path === '/'")
+      //-   nuxt-link(to="awardCeremony").header_notify_box
+      //-     .title
+      //-       span.press プレスリリース
+      //-       span.content Final Pitch 見学者募集！
+      //-     .arrow
       //-   a(href="https://twitter.com/Prossell_JP").header_notify_box
       //-     .title
       //-       span.content Final Pitch 出場チーム決定！
