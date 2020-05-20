@@ -60,7 +60,7 @@ export default {
     },
     goToForm() {
       window.location.href =
-        'https://docs.google.com/forms/d/e/1FAIpQLSej7VRMvXFrGM7Wh0le1XVLC89rRCbSBbaH_WkBrTvmSS7CaQ/viewform'
+        'https://docs.google.com/forms/d/e/1FAIpQLSej7VRMvXFrGM7Wh0le1XVLC89rRCbSBbaH_WkBrTvmSS7CaQ/viewform?usp=sf_link'
     }
   },
   head() {
