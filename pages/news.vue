@@ -86,7 +86,7 @@ export default {
         {
           pub: true,
           date: '2020/05/19',
-          title_ja: 'テーマを公開しました'
+          title_ja: 'テーマを公開しました。'
         },
         {
           pub: true,
