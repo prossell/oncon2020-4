@@ -68,10 +68,43 @@ export default {
         {
           pub: true,
           date: '2020/05/11',
-          title_ja: '審査員（Judges）ページの公開',
-          detaile_ja:
-            '審査員およびメンターの方々を紹介しております。順次追加予定です。',
-          link: '/judges'
+          title_ja: 'メンターの公開',
+          detaile_ja: '菅野流飛 様，兼城駿一郎 様'
+        },
+        {
+          pub: true,
+          date: '2020/05/17',
+          title_ja: 'サポーター企業の追加',
+          detaile_ja: '(株)アカデミックギャングスター 様'
+        },
+        {
+          pub: true,
+          date: '2020/05/17',
+          title_ja: '審査員の公開',
+          detaile_ja: '中川卓也 様, 渋谷修太 様'
+        },
+        {
+          pub: true,
+          date: '2020/05/19',
+          title_ja: 'テーマを公開しました。'
+        },
+        {
+          pub: true,
+          date: '2020/05/19',
+          title_ja: 'メンターの追加',
+          detaile_ja: '青山陽 様'
+        },
+        {
+          pub: true,
+          date: '2020/05/21',
+          title_ja: '参加応募を締め切りました。',
+          detaile_ja: '前回を上回る139名の応募でした。5/22からスタートします！'
+        },
+        {
+          pub: true,
+          date: '2020/05/21',
+          title_ja: '審査員の追加',
+          detaile_ja: '駒村和彦 様'
         }
       ]
     }
