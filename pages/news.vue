@@ -86,8 +86,19 @@ export default {
         {
           pub: true,
           date: '2020/05/19',
+          title_ja: 'テーマを公開しました'
+        },
+        {
+          pub: true,
+          date: '2020/05/19',
           title_ja: 'メンターの追加',
           detaile_ja: '青山陽 様'
+        },
+        {
+          pub: true,
+          date: '2020/05/21',
+          title_ja: '参加応募を締め切りました。',
+          detaile_ja: '前回を上回る139名の応募でした。5/22からスタートします！'
         },
         {
           pub: true,
