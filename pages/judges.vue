@@ -108,8 +108,9 @@ export default {
             '在学中にNonmarket Strategy（非市場戦略）の認定を取得。',
             'コンサルティング業務の傍ら、上智大学や二松学舎大学等で非常勤講師（経営学など）として教鞭もとる。',
             '趣味はサッカー。高校時代は神奈川県選抜、社会人リーグで活動後、現在は少年サッカーのコーチ。'
-          ]
-          // link: 'https://www.nri.com/jp/service/souhatsu'
+          ],
+          link:
+            'https://www.nri.com/-/media/Corporate/jp/Files/PDF/knowledge/publication/region/2019/07/2_vol192.pdf?la=ja-JP&hash=723A9E269C2D5E3E7635CFBC29FBF4CAE946BFE2'
         }
       ],
       mentors: [
