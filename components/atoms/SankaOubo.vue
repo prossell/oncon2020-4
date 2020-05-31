@@ -1,8 +1,10 @@
 <template lang="pug">
   .sankaoubo_box
+    nuxt-link(to="/").application_btn
+      BoshushuryoSvg.sankaoubo
     //- nuxt-link(to="/disclaimer").application_btn
-    nuxt-link(to="/awardCeremony").application_btn
-      AwardCeremonySvg.sankaoubo
+    //- nuxt-link(to="/awardCeremony").application_btn
+      BoshushuryoSvg.sankaoubo
       //- .sankaoubo(v-if="this.$i18n.locale === 'en'")
       //-   .enfont Apply!
 
