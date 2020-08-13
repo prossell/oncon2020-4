@@ -14,8 +14,8 @@
           //-   a.next_event(href="https://note.com/prossell2019/n/n1c3a086b67dc") 最終結果はコチラ！
           //-   ArrowSvg.next_arrow
 
-          .next(v-for="(times,onconTimes_key) in onconTimes" :key="`onconTimes_${onconTimes_key}`")
-            a.next_event(:href="'http://oncon'+times.latest+'.prossell.jp'") 次回の開催はコチラ！
+          .next
+            a.next_event(href="https://oncon.prossell.jp") 次回の開催はコチラ！
             ArrowSvg.next_arrow
       .scroll_down(v-if="$mq !== 'sm'")
         ScrollSvg.scroll_down_svg
@@ -39,18 +39,6 @@ export default {
     CommingSoonSvg,
     ScrollSvg,
     ArrowSvg
-  },
-  data() {
-    return {
-      onconTimes: ''
-    }
-  },
-  created() {
-    fetch(
-      'https://script.google.com/macros/s/AKfycbzRTQgnjkwjd5CAHvGcQy-JkA715F8gw8mrpYW5zLV7H-Jz3mSC/exec'
-    )
-      .then((res) => res.json())
-      .then((res) => (this.onconTimes = res))
   }
 }
 </script>
